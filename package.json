@@ -2,11 +2,18 @@
   "name": "vite-plugin-template",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./dist/index.esm.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs.js",
+  "browser": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
   "type": "module",
-  "module": "./dist/index.esm.js",
-  "browser": "./dist/index.umd.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "rollup --config",
     "dev": "rollup --config -w",
