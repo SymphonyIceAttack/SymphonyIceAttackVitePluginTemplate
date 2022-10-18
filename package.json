@@ -17,6 +17,9 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "repository": {
+    "url": "https://github.com/SymphonyIceAttack/SymphonyIceAttackVitePluginTemplate"
+  },
   "scripts": {
     "build": "rollup --config",
     "dev": "rollup --config -w",
