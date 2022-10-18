@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-template",
+  "name": "@symphonyiceattack/vite-plugin-template",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./dist/index.js",
