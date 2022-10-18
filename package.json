@@ -7,10 +7,13 @@
   "browser": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "require": "./dist/index.js",
-      "import": "./dist/index.mjs",
+      "import": "./dist/index.mjs.js",
       "types": "./dist/index.d.ts"
     }
   },
